@@ -7,6 +7,7 @@
     <main>哈哈哈</main>
     <nav>我需要拉去最新的</nav>
     <main>哈哈哈non867</main>
+    <p>66666</p>
   </div>
 </template>
 <script>
