@@ -146,10 +146,12 @@ export default {
     //3.监听item 中的图片加载完成
   },
   activated() {
+    // 活跃时自动跳至上一记录的位置
     this.$refs.scroll.scrollTo(0, this.saveY, 0);
     this.$refs.scroll.refresh();
   },
   deactivated() {
+    //当组件不活跃的时候记录纵坐标
     this.saveY = this.$refs.scroll.getScroll();
     //取消全局事件监听
     this.$bus.$off("itemImageLoad", this.itemListener);

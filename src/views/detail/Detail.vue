@@ -143,6 +143,7 @@ export default {
       // this.$refs.scroll.refresh();
     },
     currentClick(index) {
+      //获取导航栏索引 通过better-scroll 封装的函数跳转至位置
       this.$refs.scroll.scrollTo(0, -this.paramsInfo[index]);
     },
     scroll(position) {

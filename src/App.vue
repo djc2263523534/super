@@ -4,6 +4,7 @@
       <router-view></router-view>
     </keep-alive>
     <main-tab-bar></main-tab-bar>
+    <main>哈哈哈</main>
   </div>
 </template>
 <script>
