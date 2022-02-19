@@ -5,6 +5,7 @@
     </keep-alive>
     <main-tab-bar></main-tab-bar>
     <main>哈哈哈</main>
+    <nav>我需要拉去最新的</nav>
   </div>
 </template>
 <script>
