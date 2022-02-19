@@ -4,12 +4,6 @@
       <router-view></router-view>
     </keep-alive>
     <main-tab-bar></main-tab-bar>
-    <main>哈哈哈</main>
-    <nav>我需要拉去最新的</nav>
-    <main>哈哈哈non867</main>
-    <h5>ssssssssssssssssssss</h5>
-    <p>66666</p>
-    <p>55555555555555555555</p>
   </div>
 </template>
 <script>
