@@ -4,12 +4,9 @@
       <router-view></router-view>
     </keep-alive>
     <main-tab-bar></main-tab-bar>
-<<<<<<< HEAD
     <main>哈哈哈</main>
     <nav>我需要拉去最新的</nav>
-=======
     <main>哈哈哈non867</main>
->>>>>>> startgit
   </div>
 </template>
 <script>
